@@ -206,6 +206,6 @@ class DominoBot():
 bot = DominoBot(zipCode,sNumber, chromePath)
 bot.getCodes()
 bot.login()
-#bot.addPizzas("pizzas.txt")
-#bot.getLikelyDiscounts()
+bot.addPizzas("pizzas.txt")
+bot.getLikelyDiscounts()
 #bot.getFreeCodes()
