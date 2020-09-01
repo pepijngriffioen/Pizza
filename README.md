@@ -18,7 +18,7 @@ The bot works as follows:
 
 ## Installation
 - Download Chromedriver from http://chromedriver.chromium.org/ move to /usr/local/bin (mac os/linux) for windows move and locate and put in. note: Change the webdriver in the init function according to your OS.
-- 
+- Install packages:
 ```bash 
 pip install selenium 
 pip install pandas 
@@ -27,7 +27,7 @@ pip install pandas
 ```python
 zipCode = 'your_zipcodes'
 sNumber = 'your_streetnumber'
-chromePath = r"C:\path\to\Chrome"
+chromePath = r"C:\path\to\ChromeWeDriver"
 ```
 - Setup your pizzas.txt with the pizzas you want to order. It will be read line by line.
 ```
