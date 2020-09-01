@@ -18,13 +18,14 @@ The bot works as follows:
 
 ## Installation
 - Download Chromedriver from http://chromedriver.chromium.org/ move to /usr/local/bin (mac os/linux) for windows move and locate and put in. note: Change the webdriver in the init function according to your OS.
-- ```bash
-pip install selenium
-pip install pandas
+- 
+```bash 
+pip install selenium 
+pip install pandas 
 ```
 - Create a secrets.py file with variables:
 ```python
-zipCode = 'your_zipcode'
+zipCode = 'your_zipcodes'
 sNumber = 'your_streetnumber'
 chromePath = r"C:\path\to\Chrome"
 ```
